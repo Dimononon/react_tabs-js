@@ -11,7 +11,7 @@ export const tabs = [
 ];
 
 export const App = () => {
-  const [activeTabId, SetActiveTabId] = useState('tab-1');
+  const [activeTabId, SetActiveTabId] = useState(tabs[0].id);
 
   return (
     <div className="section">
